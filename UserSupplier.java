@@ -5,6 +5,6 @@ public class UserSupplier extends User implements Supplier {
 
     @Override
     public void bringsBook(String bookName) {
-        System.out.println("Поставщик " + getName() + " привез книгу " + bookName);
+        System.out.println("Поставщик " + getName() + " доставил книгу " + bookName);
     }
 }
